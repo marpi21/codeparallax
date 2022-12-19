@@ -1,0 +1,24 @@
+*, html, body {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+.parralax {
+    width: 100%;
+    height: 100vh;
+}
+.atas {
+    background-size: cover;
+    background-image: url('1.jpg');
+}
+.tengah {
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 50vh;
+    background-image: url('2.jpg');
+}
+.bawah {
+    background-image: url('3.jpg');
+}
